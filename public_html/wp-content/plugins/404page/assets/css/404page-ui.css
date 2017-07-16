@@ -1,0 +1,94 @@
+#pp-404page-settings .form-table th, .form-table td {
+  display: block;
+  width: auto;
+}
+
+#pp-404page-settings .form-table th {
+  padding: 20px 10px 0 0;
+}
+
+#pp-404page-settings .form-table td {
+  padding: 6px 10px 0 0;
+}
+
+#pp-seetings-advanced .form-table th {
+  display: none;
+}
+
+#pp-seetings-advanced .form-table td p:first-child {
+  font-weight: 600;
+}
+
+#pp-seetings-advanced .form-table td p:last-child {
+  padding: 0 0 20px 40px;
+}
+
+.ui-accordion .ui-accordion-header {
+    cursor: pointer;
+    outline: 0;
+}
+.ui-accordion .ui-accordion-header:before {
+  font-family: dashicons;
+  content: "\f132";
+  margin-right: 10px;
+  float: left;
+}
+
+.ui-accordion .ui-accordion-header-active:before {
+  content: "\f460";
+}
+
+.ui-accordion-content {
+  padding-left: 30px;
+}
+
+#pp-404page-settings input[type="checkbox"] {
+    display: none;
+}
+
+#pp-404page-settings input[type="checkbox"] + label.check {
+  display: inline-block;  
+  border: 2px solid #DDD;
+  box-shadow: 0px 0px 5px 0px rgba(42,42,42,.75); 
+  border-style:solid; 
+  border-radius:5px; 
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-family: dashicons;
+  font-size: 2em;
+  margin-right: 10px;
+}
+
+#pp-404page-settings input[type="checkbox"]:disabled + label.check {
+  background-color: #DDD;
+  cursor: not-allowed;
+}
+
+#pp-404page-settings input[type="checkbox"] + label.check:before {
+  content: "";  
+}
+
+#pp-404page-settings input[type="checkbox"]:enabled:checked + label.check:before {
+  content: "\f147";
+}
+
+
+
+#pp-seetings-advanced>div {
+  display: none;
+}
+
+#pp-404page-settings select {
+  border: 2px solid #DDD;
+  box-shadow: 0px 0px 5px 0px rgba(42,42,42,.75); 
+  border-style:solid; 
+  border-radius:5px;
+  height: 40px;
+  line-height: 40px;
+}
+
+#pp-404page-settings .dashicons-warning, #pp-404page-settings input[type="checkbox"] + label.check.warning:before {
+  color: #d54e21;
+}
